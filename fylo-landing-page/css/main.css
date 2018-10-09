@@ -1,0 +1,28 @@
+* {
+
+}
+
+/* -------- Typography ---------- */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/* -------- Colours ---------- */
+
+:root {
+    --primary: hsl(243, 86%, 85%); 
+    --primary-alt: hsl(243, 87%, 12%);
+    --accent: hsl(163, 95%, 43%);
+    --neutral: hsl(0, 0%, 50%); 
+}
